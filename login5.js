@@ -1,6 +1,6 @@
 //Prime Identify
 
-let x=0
+let count=0
 let num=13;
 for(let i=2; i<=num; i++){
     if(num%i==0){
@@ -9,6 +9,6 @@ for(let i=2; i<=num; i++){
         break;
     }
 }
-for(x==0){
+for(count==0){
     console.log("Yes");
 }
